@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro de Personagens</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Cadastro de Personagens</h1>
+
+    <form id="formpersonagens">
+        <input type="text" id="nome" placeholder="nome" required />
+        <input type="text" id="classe" placeholder="classe" required />
+        <input type="number" id="forca" placeholder="força" required min="0" />
+        <input type="number" id="defesa" placeholder="defesa" required min="0" />
+        <input type="text" id="imagem" placeholder="url da imagem" required />
+        <button type="submit">cadastrar</button>
+    </form>
+
+    <h2>Personagens cadastrados</h2>
+    <div id="listadepersonagens" class="Personagens-container"></div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
