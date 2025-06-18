@@ -1,0 +1,46 @@
+header {
+    background-color:#4cd15b;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color:#78fd87;
+    color: #000000;
+    text-align:left;
+    padding: 20px;
+    
+    padding: 20px;
+}
+
+footer {
+    background-color: #78fd87;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #78fd87;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h4 {
+padding: 50px;
+    font-size: 70px;
+
+}
+
+.visible {
+    font-size: 30px;
+}
+
+h1 { 
+    font-size: 50px;
+
+}

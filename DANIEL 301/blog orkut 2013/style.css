@@ -1,0 +1,16 @@
+
+
+header{
+    background-color: #333;
+    color:  rgb(255, 255, 255);
+    padding: 2,0px;
+    text-align: center;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 20PX;
+}

@@ -1,0 +1,79 @@
+   body {
+    background-color: white;
+    height: 100vh;
+    gap: 0px;
+   }
+   
+
+   header {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    gap: 5px;
+   }
+
+   .logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(202, 35, 35);
+    margin: 10px;
+    padding: 15;
+    line-height: 55px;
+   }
+
+   .link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(250, 180, 40);
+    margin: 10px;
+    padding: 15px;
+   }
+
+   main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    gap: 5px;
+   }
+
+   aside {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(250, 40, 243);
+    padding: 200px;
+   }
+
+   section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(40, 127, 250);
+    padding: 200px;
+   }
+
+   extra {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(69, 244, 69);
+    padding: 200px;
+   }
+
+   footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 0px;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    padding: 2px;
+    background-color: rgb(245, 123, 62);
+    margin: 5px;
+   }

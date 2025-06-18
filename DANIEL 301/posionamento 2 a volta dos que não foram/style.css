@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(253, 251, 253);
+    height: 100vh;
+    gap: 0px;
+}
+
+.container {
+    display: grid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-template-areas:
+      "header header header"
+      "sidebar main main"
+      "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+
+
+
+
+
+header {
+    grid-area: header;
+    text-align: center;
+    gap: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: rgb(202, 35, 35);
+    padding: 10;
+    line-height: 30px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(255, 127, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    text-align: center;
+    font-size: x-large;
+    line-height: 15rem;
+  }
+
+.main {
+    grid-area: main;
+    display: grid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+
+.content-box {
+    background-color: rgb(72, 120, 254);
+    height: 80px;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    text-align: center;
+    line-height: 250px;
+    font-size: x-large;
+    
+}
+
+
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    gap: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: rgb(61, 106, 252);
+    padding: 10;
+    line-height: 30px;
+}
+
+
+

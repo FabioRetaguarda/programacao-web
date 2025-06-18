@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #b2fc87;
+    color: rgb(8, 8, 187);
+}
+
+h1.visible {
+    font-size: 60px;
+    color: black;
+}
+
+form {
+    font-size: 20px;
+    background: rgb(62, 235, 105);
+    padding: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    margin-bottom: 22px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+

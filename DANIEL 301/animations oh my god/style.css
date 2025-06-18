@@ -1,0 +1,24 @@
+@keyframes exemplo {
+    0% {background-color: rgb(255, 0, 0);}
+    10% {background-color: rgb(248, 103, 7);}
+    20% {background-color: rgb(255, 255, 0);}
+    30% {background-color: rgb(145, 255, 0);}
+    30% {background-color: rgb(135, 203, 0);}
+    40% {background-color: rgb(125, 255, 153);}
+    50% {background-color: rgb(105, 225, 255);}
+    60% {background-color: rgb(94, 102, 255);}
+    70% {background-color: rgb(85, 0, 255);}
+    80% {background-color: rgb(187, 0, 255);}
+    90% {background-color: rgb(243, 6, 156);}
+    100% {background-color: rgb(255, 0, 0);}
+}
+
+div {
+    width: 10000px;
+    height: 10000px;
+    background-color: red;
+    animation-name: exemplo;
+    animation-duration: 4s;
+
+
+}
